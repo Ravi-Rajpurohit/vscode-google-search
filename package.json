@@ -10,29 +10,38 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:google-search.helloWorld"
+		"onStartupFinished",
+		"onCommand:google-search.makeSearch",
+		"onCommand:google-search.makeSearchFromTerminal"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "google-search.helloWorld",
-				"title": "Hello World"
+				"command": "google-search.makeSearch",
+				"title": "Google selected text "
 			}
 		],
 		"keybindings": [
 			{
-				"command": "google-search.helloWorld",
+				"command": "google-search.makeSearch",
 				"key": "ctrl+alt+g",
 				"mac": "cmd+alt+g",
 				"when": "editorHasSelection"
+			},
+			{
+				"command": "google-search.makeSearchFromTerminal",
+				"key": "ctrl+alt+k g",
+				"mac": "cmd+alt+k g",
+				"when": "terminalFocus"
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"command": "google-search.helloWorld",
-					"when": "editorHasSelection"
+					"command": "google-search.makeSearch",
+					"when": "editorHasSelection",
+					"group": "navigation"
 				}
 			]
 		}
