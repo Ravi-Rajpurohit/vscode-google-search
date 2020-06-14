@@ -19,7 +19,23 @@
 				"command": "google-search.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"keybindings": [
+			{
+				"command": "google-search.helloWorld",
+				"key": "ctrl+alt+g",
+				"mac": "cmd+alt+g",
+				"when": "editorHasSelection"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "google-search.helloWorld",
+					"when": "editorHasSelection"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
