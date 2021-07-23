@@ -1,65 +1,85 @@
-# google-search README
+## Main Functionality
 
-This is the README for your extension "google-search". After writing up a brief description, we recommend including the following sections.
+---
+
+This extension helps you make google searches right from vscode.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+---
 
-For example if there is an image subfolder under your extension project workspace:
+I) Google search from the editor:
 
-\!\[feature X\]\(images/feature-x.png\)
+- Select the text for which you want to make a google search
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Press CTRL + ALT + G
 
-## Requirements
+![1.gif](https://i.ibb.co/HxMvS80/1.gif 'Google search from the editor')
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+II) Google search from the terminal:
 
-## Extension Settings
+- Select the text for which you want to make a google search
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- Press CTRL+ALT+K G
 
-For example:
+![2.gif](https://i.ibb.co/kDnqNhB/2.gif 'Google search from the terminal')
 
-This extension contributes the following settings:
+III) Google search from the output view:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- Select the text for which you want to make a google search
 
-## Known Issues
+- Press CTRL + ALT + G
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+![3.gif](https://i.ibb.co/qsn5pfN/3.gif 'Google search from the output view')
+
+IV) Google search using the context menu:
+
+- Select the text for which you want to make a google search
+
+- Right click and select "Google selected text"
+
+![4.gif](https://i.ibb.co/YLVGw6w/4.gif 'Google search using the context menu')
+
+V) Google search from the command pallette:
+
+- Select the text for which you want to make a google search
+
+- Open command pallette using CTRL + SHIFT + P
+
+- Search for "Google selected text" and hit ENTER
+
+A new tab of your default browser will get open with google search of the selected text after using each feature.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+---
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
+- Initial release of vscode google search extension
 
-### 1.0.1
+### 0.0.2
 
-Fixed issue #.
+- Small bugfixes and cleanups
 
-### 1.1.0
+## Participate
 
-Added features X, Y, and Z.
+---
 
------------------------------------------------------------------------------------------------------------
+You're more than welcome to participate in the development of the extension by creating pull requests and submitting issues, link of the project in github: https://github.com/Ravi-Rajpurohit/vscode-google-search
 
-## Working with Markdown
+## Contact
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+You can contact me on the following mail: ravi.rajpurohit385@gmail.com
 
-### For more information
+## License
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
+
+MIT &copy; Ravi Rajpurohit
+
+---
 
 **Enjoy!**
