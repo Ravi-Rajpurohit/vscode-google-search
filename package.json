@@ -4,7 +4,7 @@
 	"description": "Google search anything from vscode editor, output view and terminal.",
 	"version": "1.0.0",
 	"engines": {
-		"vscode": "^1.50.0"
+		"vscode": "^1.58.1"
 	},
 	"icon": "images/icon.png",
 	"categories": [
