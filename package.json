@@ -2,7 +2,7 @@
 	"name": "google-search",
 	"displayName": "Google Search",
 	"description": "Google search anything from vscode editor, output view and terminal.",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.50.0"
 	},
